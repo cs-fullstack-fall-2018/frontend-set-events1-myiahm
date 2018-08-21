@@ -37,6 +37,7 @@ var total3 = document.getElementById("theTotal3"); // creating a reset button
 theButton3.addEventListener("click" ,sumPress3);// that when clicked sets value of the first two buttons back at 0
 var sum3 = 0;
 function sumPress3()
+<<<<<<< HEAD
     {
         a = 0;
         document.getElementById('theTotal').innerHTML = a;
@@ -47,3 +48,22 @@ function sumPress3()
 
 
 
+=======
+{
+    total3.innerHTML = 0;
+     sum3 = 0;
+     total3.innerHTML= sum3 + sum2 +sum3
+}
+
+
+/*
+
+Step 1:
+Complete
+
+Step 2:
+Almost. You got the second button working, but the reset isn't working. Look at your code agian to see what you need each total to do when you hit reset. I don't think you need to add anything in it.
+
+From Kenn
+*/
+>>>>>>> 6dd63d7584dec98603e1fb6aa540ad1411a8914f
