@@ -9,7 +9,12 @@ function sumPress()  //creating function sumPress
     total.innerHTML += 1; //adding one to the total every cycle
     sum += 1; //adding one to the sum every cycle
     total.innerHTML = sum; //making sum and total =
-}
+     if (sum=== 10){
+         document.getElementById('button2').removeAttribute("disabled");
+     }
+
+document.getElementById('button2').setAttribute("disabled", "disabled");
+
 
 var theButton2 = document.getElementById("button2");
 var total2 = document.getElementById("theTotal2"); ////second button that does the same thing as the first
